@@ -8,7 +8,7 @@ const mongoConnect = callback => {
     'mongodb+srv://alisinancoban:2281832@appdb.nq5cyqj.mongodb.net/?retryWrites=true&w=majority',
     {
       useNewUrlParser: true,
-       useUnifiedTopology: true
+      useUnifiedTopology: true
     }
   )
     .then(client => {
